@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Tienda</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <a class="marca" title="Monqui muebles para tu gato" href="../index.html">
+                <img src="../images/logo.png" alt="Logo Monqui">
+                <div class="marca-texto">
+                    <h1>Monqui</h1>
+                    <h2>muebles para tu gato</h2>
+                </div>
+            </a>
+            <!-- Inicio menu de navegación -->
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <!-- Fin menu de navegación -->
+        </header>
+
+        <div class="content">
+            <!-- Inicio tabla de productos -->
+            <div class="productos">
+                <div class="card">
+                    <img src="../images/producto1.jpg" alt="producto número 1">
+                    <h5>Producto 1</h5>
+                    <h3>Precio: 5000$</h3>
+                </div>
+
+                <div class="card">
+                    <img src="../images/producto2.jpg" alt="producto número 2">
+                    <h5>Producto 2</h5>
+                    <h3>Precio: 3000$</h3>
+                </div>
+
+
+                <div class="card">
+                    <img src="../images/producto3.jpg" alt="producto número 3">
+                    <h5>Producto 3</h5>
+                    <h3>Precio: 4000$</h3>
+                </div>
+
+                <div class="card">
+                    <img src="../images/producto4.jpg" alt="producto número 4">
+                    <h5>Producto 4</h5>
+                    <h3>Precio: 5000$</h3>
+                </div>
+
+
+                <div class="card">
+                    <img src="../images/producto5.jpg" alt="producto número 5">
+                    <h5>Producto 5</h5>
+                    <h3>Precio: 3000$</h3>
+                </div>
+
+                <div class="card">
+                    <img src="../images/producto6.jpg" alt="producto número 6">
+                    <h5>Producto 6</h5>
+                    <h3>Precio: 5000$</h3>
+                </div>
+            </div>
+            <!-- Fin tabla de productos -->
+            <div class="formulario-compra">
+                <h4>INGRESÁ LOS DATOS DEL PRODUCTO QUE SELECCIONASTE</h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit delectus error laborum numquam et
+                    earum,
+                    corporis voluptatum dignissimos deserunt officia nam laudantium officiis odit eaque similique
+                    molestiae
+                    dolore tempora fugiat.</p>
+
+                <form action="">
+                    <label for="">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <label for="ccn">Número de tarjeta:</label>
+                    <input type="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number"
+                        maxlength="19" placeholder="xxxx xxxx xxxx xxxx" required>
+                    <label for="productosform">Elegí un producto:</label>
+                    <select id="productosform" name="productos">
+                        <option value="producto1">Producto 1 </option>
+                        <option value="producto2">Producto 2</option>
+                        <option value="producto3">Producto 3</option>
+                        <option value="producto4">Producto 4</option>
+                    </select>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+
+
+        <!-- Fin tabla de productos -->
+
+        <!-- Incio footer -->
+        <div class="footer">
+
+            <div class="redes">
+                <h3> Redes sociales </h3>
+                <div class="social">
+                    <a href="https://www.facebook.com/"><img src="../images/facebook.png"></a>
+                    <a href="https://www.twitter.com/"> <img src="../images/twitter.png"></a>
+                    <a href="https://www.instagram.com/"><img src="../images/instagram.png"></a>
+                </div>
+            </div>
+            <div class="menu-footer">
+                <a href="../index.html">Inicio</a>
+                <a href="./productos.html">Productos</a>
+                <a href="./clientes.html">Clientes</a>
+                <a href="./tienda.html">Tienda</a>
+                <a href="./contacto.html">Contacto</a>
+            </div>
+
+
+        </div>
+        <!-- Fin footer -->
+
+    </div>
+</body>
+
+</html>
