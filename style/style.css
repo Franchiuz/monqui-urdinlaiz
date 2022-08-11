@@ -313,13 +313,13 @@ td {
     background-color: #cc9999;
 }
 
-.card {
+.tarjeta {
     display: flex;
     flex-direction: column;
     size: 75%;
 }
 
-.card img {
+.tarjeta img {
     padding-bottom: 10px;
     width: 100%;
     margin: 5px;
@@ -546,14 +546,14 @@ input[type=reset] {
 /* Fin estilos footer*/
 
 
-.card-animada {
+.tarjeta-animada {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
 
-.card-animada:hover {
+.tarjeta-animada:hover {
     transform: scale(1.5);
     -webkit-transform: scale(1.5);
     -moz-transform: scale(1.5);
