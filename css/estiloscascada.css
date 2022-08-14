@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
 * {
   margin: 0;
@@ -267,6 +268,7 @@ td {
   color: var(--color); }
 
 /* Fin estilos footer*/
+/* inicio imágenes animadas*/
 .tarjeta-animada {
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -284,6 +286,7 @@ td {
   -moz-box-shadow: 3px 3px 5px #000;
   box-shadow: 3px 3px 5px #000; }
 
+/* Fin imágenes animadas*/
 .clear {
   clear: both; }
 
