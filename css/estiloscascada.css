@@ -15,10 +15,7 @@
   grid-template-rows: 150px 1fr 1fr 100px;
   gap: 10px 0px;
   grid-auto-flow: row;
-  grid-template-areas: ". header header ."
- ". content content ."
- ". content content ."
- ". footer footer ."; }
+  grid-template-areas: ". header header ." ". content content ." ". content content ." ". footer footer ."; }
 
 .content {
   grid-area: content;
@@ -271,8 +268,6 @@ td {
   color: var(--color); }
 
 /* Fin estilos footer*/
-
-
 /* inicio imágenes animadas*/
 .tarjeta-animada {
   -webkit-transition: all 1s ease;
