@@ -1,0 +1,109 @@
+/* Inicio estilos h*/
+
+h1 {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+    background-color: #cc9999;
+}
+
+h4 {
+    font-size: 0.95rem;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+h5 {
+    font-size: 0.95rem;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: lighter;
+    background-color: #cc9999;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1068px) {
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1068px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 1.25rem;
+    }
+}
+
+
+
+
+
+p {
+    line-height: 20px;
+    letter-spacing: 20;
+}
+
+/* Fin estilos h*/
