@@ -252,6 +252,7 @@ nav {
   margin-bottom: 20px;
   background-color: #cc9999;
   border-bottom: #ffffff solid 2px;
+  z-index: 9999;
 }
 
 nav ul {
@@ -289,12 +290,13 @@ nav .nav-link {
 
 .content {
   grid-area: content;
-  margin-top: 40px;
+  padding-top: 40px;
   background-color: #cc9999;
 }
 
 .header {
   grid-area: header;
+  margin-bottom: 20px;
 }
 
 .footer {
