@@ -1,0 +1,28 @@
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr;
+    grid-template-rows: 150px 1fr 1fr 100px;
+    gap: 10px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". header header ."
+        ". content content ."
+        ". content content ."
+        ". footer footer .";
+}
+
+.content {
+    grid-area: content;
+    padding-top:  40px;
+    background-color: #cc9999;
+}
+
+.header {
+    grid-area: header;
+    margin-bottom: 20px;
+}
+
+.footer {
+    grid-area: footer;
+}
